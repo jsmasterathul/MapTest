@@ -1,0 +1,12 @@
+# ignore packages installed by npm
+node_modules*
+public*
+
+# we don't want to accidentally check our secret credentials into the repo
+key.txt
+
+# don't commit log files
+#log
+
+# ignore uploaded data
+#data
